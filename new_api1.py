@@ -11,7 +11,7 @@ import httpx
 import re
 
 # 从环境变量获取AI配置
-AI_API_KEY = os.environ.get("AI_MODEL_API_KEY", "sk-3410549241fc4b85b010704f2b884285")
+AI_API_KEY = os.environ.get("AI_MODEL_API_KEY", "xxxxxxxxxxxxxxxxxxx")
 AI_API_URL = os.environ.get("AI_MODEL_API_URL", "https://api.deepseek.com/v1")
 AI_MODEL_NAME = os.environ.get("AI_MODEL_NAME", "deepseek-chat")
 AI_REQUEST_TIMEOUT = 180  # 请求超时时间（秒）
